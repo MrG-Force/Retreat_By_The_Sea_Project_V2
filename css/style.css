@@ -1,0 +1,1142 @@
+/* =================TEMPLATE ALL PAGES================ */
+/*#region*/
+/* ------- GLOBALS ------- */
+/*#region*/
+* {
+   /*outline: solid 1px red;    ------- debug ------- */
+  box-sizing: border-box;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+html {
+  height: 100vh;
+  min-height: 336px;
+}
+
+body {
+  background-color: #C0B3A0;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin:0;
+  bottom: 0;
+  height: 99vh;
+}
+
+a {
+  border-radius: 4px;
+}
+/*#endregion*/
+/* ------- HEADER ------- */
+/*#region*/
+/* Stay on top and stay visible */
+header {
+  width: 100%;
+  height: 25vh;
+  background-color: #672620;
+  border: groove;
+  border-color: #cc998d;
+  overflow:hidden;
+  position: sticky;
+  top:0;
+  z-index: 3;
+}
+
+#navbar {
+  display:flex;
+  margin-top: 0.1%;
+  height: 4%;
+  float:right;
+  position:fixed; 
+  width:100%;
+  bottom: 2px;
+  top:5px;
+  overflow: auto;
+  z-index: 2;
+}
+
+#navbar a {
+  float:left;
+  color: #4d1d18;
+  background-color: #D0C6B8;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2vw;
+  line-height: 4vmin;
+  width:19.5%;
+  margin-bottom: 0;
+  margin-left: 4px;
+}
+
+#navbar a:hover {
+  background-color: #555;
+  color: #F4DDDB;
+}
+
+#navbar a.active {
+  background-color: #429EA6;
+  color: #C5FCF3;
+}
+
+#logo {
+  width: 41%;
+  height: 75%;
+  background-image: url(../images/sorrento_by_the_sea_logo_2.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position:relative;
+  background-color: #672620;
+  left: 0.7%;
+  top: 25%;
+  z-index: 1;
+}
+
+#logo a {
+  height: 20%;
+  width: 30%;
+  border: thin solid white;
+  background-color:#9b6f6c;
+  position: absolute;
+  bottom: 8%;
+  right: 2%;
+  color: #bbb2b1;
+  text-align:center;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5vmin;
+  white-space: nowrap; 
+}
+
+#logo a:hover {
+  background-color: #555;
+  color: #F4DDDB;  
+}
+
+ #print-logo {
+   display: none;
+   position: fixed;
+ }
+
+.contact {
+  width: 18%;
+  height: 15%;
+  right: 10px;
+  float: right;
+  color: #d3d4d3;
+  font-size: 2.5vmin;
+  text-align: center;
+  min-width: auto;
+  padding-top: 0.5%; 
+  position:absolute;
+  top: 32%;
+}
+
+.contact a[href^="tel:"] {
+  color:#C5FCF3;
+} 
+
+.contact h4 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size:.95em;
+}
+
+.contact p {
+  margin-top: 0em;
+  margin-bottom: 1em;
+  font-size: .90em;
+}
+
+.contact a {
+  text-decoration: none;
+}
+#print-phone {
+  display: none;
+}
+/*#endregion*/
+/* ------- MAIN -------- */
+/*#region*/
+.flex-container {
+  display: flex; 
+  height: 100%;
+}
+
+.left {
+  width: 30%;
+  background-color: rgba(21, 59, 80, 0.6);
+  transition: background-color 2s, color 2s;
+}
+
+.left:hover {
+  background-color: rgba(192, 179, 160, 0.8);
+  color: #0B1E28;
+}
+
+.right {
+  width: 70%;
+}
+
+.h-for-mobile {
+  position: fixed;
+  display: none;
+  font-size: 3.5vw;
+  color: #4d1d18;
+  padding-bottom: 1%;
+  font-weight: 600;
+  background-color: rgba(197, 252, 243, 0.5);
+}
+
+.section-content { 
+  font-size: 1.3vw;
+  padding-left: 3%;
+  padding-right: 1%;
+  transition: background-color 2s, color 1s;
+  border-radius: 6px;
+}
+.section-content:hover {
+  background-color: rgba(208, 198, 184, 0.9);
+  color: #4d1d18;
+}
+/*#endregion*/
+/* ------- FOOTER ------- */
+/*#region*/
+footer {
+  position:fixed;
+  display: flex;
+  left: 30%;
+  bottom: 0;
+  width:70%;
+  height:10vh;
+  background:rgba(204, 153, 141, 0.8);
+  border: groove;
+  border-color: #672620;
+  justify-content:right;
+  z-index: 3;
+}
+
+footer p {
+  text-align: right;
+  padding-right: 3%;
+  letter-spacing: 0.1vw;
+  white-space: nowrap; 
+}
+
+#tag-us {
+  width: 60%;
+  font-size: 1.4vw;
+  color: #153B50;
+}
+
+#social-icons {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  bottom:30px;
+  align-items: center;
+  padding: 2%;
+}
+
+#social-icons a {
+  opacity: 1;
+}
+
+#social-icons a:hover {
+  opacity: 0.7;
+}
+/*#endregion*/
+/*#endregion*/
+
+/* =================PAGE SPECIFIC STYLES================ */
+
+/* ------- INDEX.HTML ------- */
+/*#region*/
+
+/* ------- <main> HOME ------- */
+#main-home {
+  background-image: url(../images/beach-boxes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 75vh;
+}
+
+#sidebar-home{
+  padding: 10%;
+}
+
+#sidebar-home p {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5vw;
+  text-shadow: 2px 2px 5px #429EA6;
+  letter-spacing: 3px;
+}
+
+#right-side-home{
+  position: relative;
+  height: 35%;
+  width: 70%;
+  float: right;
+  top: 30%;
+  right: 5%;
+  color:#C5FCF3;
+  line-height: 1.8;
+  word-spacing: 0.3vw;
+  text-shadow: 2px 2px 5px #429EA6;
+  padding-left: 4%;
+  padding-right: 3%;
+  border-radius: 15px;
+  text-align: center;
+  transition: background-color 1s, color 2s; 
+}
+
+#right-side-home:hover {
+  background-color: rgba(103, 38, 32, 0.8);
+  color: #cbcbcb;
+  text-shadow:none;
+}
+
+#right-side-home a {
+  position:relative;
+  height: 25%;
+  width: 50%;
+  padding: 0.5% 3% 1% 3%;
+  bottom: 10%;
+  border: thin solid white;
+  background-color:#9b6f6c;
+  text-shadow: none;
+  color: #cbcbcb;
+  text-align: center;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5vmin ;
+}
+
+#right-side-home a:hover{
+  background-color: #555;
+  color: #F4DDDB;
+}
+/*#endregion*/
+
+/* ------- ABOUT.HTML ------- */
+/*#region*/
+#body-about {
+  position: relative;
+}
+
+/* ------- <main> ABOUT ------- */
+/*  parallax effect */
+#main-about {
+  background-image: url(../images/sorrento_sunset.jpg);
+  min-height: 1276px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------- left ABOUT ------- */
+#left-about {
+  height: 1276px;
+}
+
+#sidebar-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3vh;
+  height: 95%;
+  /* border: medium solid palegreen; */
+}
+
+.section-headers-about {
+  color:#D0C6B8;
+}
+.section-headers-about:hover {
+  color: #4d1d18;
+}
+
+.section-headers-about h2 {
+  font-size: 2.5vw;
+  font-family: Helvetica;
+  text-align: right;
+  padding-right: 2vw;
+}
+
+#sh-about-us {
+  height: 32%;
+}
+
+#sh-pet-policy {
+  height: 15%; 
+}
+#sh-pet-policy img {
+  width: 100%;
+  /* This timing applies on the way OUT */
+  transition-timing-function: ease-in;
+  /* Slow on the way out */
+  transition: 10s;
+  opacity: 0;
+}
+#sh-pet-policy:hover img {
+  /* This timing applies on the way IN */
+  transition-timing-function: ease-out;
+  /* Quick on the way in */
+  transition: 1s;
+  opacity: 1;
+}
+
+#sh-pricing{
+  height: 50%;
+}
+
+/* ------- right ABOUT------- */
+#right-about {
+  height: 1276px;
+}
+
+#right-side-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3vh;
+  height: 95%;
+}
+
+#cont-about-us {
+  height: 32%;
+}
+
+#cont-pet-policy {
+  height: 15%;
+}
+
+#cont-pricing {
+  height: 50%;
+}
+/*#endregion*/
+
+/* ------- PROPERTY.HTML ------- */
+/*#region*/
+#body-property {
+  position: relative;
+}
+
+/* ------- <main> PROPERTY ------- */
+#main-property {
+  background-image: url(../images/RealEstate/big_living.jpg);
+  min-height: 1067px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------- left PROPERTY ------- */
+#left-property {
+  height: 1067px;
+}
+
+#sidebar-property {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh;
+  height: 97%;
+  padding-bottom: 4vh;
+}
+
+ /* This gallery pops up and scales while hovering */
+.gallery-img {
+  height: 11%;
+  width: 60%;
+  border-radius: 6px;
+  opacity: 0.7;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  transition: opacity 1.5s, transform 1s;
+}
+
+.gallery-img:hover {
+  opacity: 1;
+  transform: scale(1.8);  /* grows */
+  z-index: 4;             /* jumps on top of its friends */
+}
+
+.gallery-img div {
+  width: 100%;
+  height: 100%;
+}
+
+#living {
+  background-image: url(../images/RealEstate/living.jpg);  
+}
+#bedroom {
+  background-image: url(../images/RealEstate/bedroom.jpg);
+}
+#kitchen {
+  background-image: url(../images/RealEstate/kitchennette.jpg);
+}
+#lounge {
+  background-image: url(../images/RealEstate/lounge.jpg);
+}
+#breakie {
+  background-image: url(../images/RealEstate/brekkie_bar.jpg);
+}
+#bathroom {
+  background-image: url(../images/RealEstate/bathroom.jpg);
+}
+#view {
+  background-image: url(../images/RealEstate/view.jpg);
+}
+#entry {
+  background-image: url(../images/RealEstate/entry.jpg);
+}
+
+/* ------- right PROPERTY------- */
+#right-property {
+  height: 1067px;
+}
+
+#right-side-property {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4vh 2vh 4vh 2vh;
+  height: 80%;
+}
+
+#right-side-property h4{
+  font-size: large;
+  margin-bottom: 0;
+}
+
+#right-side-property li p{
+  font-size: 15px;
+}
+
+#right-side-property .section-content {
+  font-size: 1.7vw;
+  background-color: rgba(103, 38, 32, 0.3);
+}
+#right-side-property .section-content:hover {
+  background-color: rgba(208, 198, 184, 0.9);
+}
+
+/*#endregion*/
+
+/* ------- MORNINGTON.HTML ------- */
+/*#region*/
+#body-mornington {
+  position: relative;
+}
+
+/* ------- <main> MORNINGTON ------- */
+#main-mornington {
+  background-image: url(../images/sorrento_sunset2.jpg);
+  min-height: 1276px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------- left MORNINGTON ------- */
+#left-mornington {
+  height: 1276px;
+}
+
+#sidebar-mornington {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh;
+  height: 97%;
+  padding-bottom: 4vh;
+}
+
+.gallery-link {
+  height: 11%;
+  width: 60%;
+  border-radius: 6px;
+  opacity: 0.7;
+  transition: opacity 1s;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+.gallery-link:hover {
+  opacity: 1;
+}
+.gallery-link:hover span {
+  display:block;
+}
+
+.gallery-link div {
+  width: 100%;
+  height: 100%;
+}
+
+.external-link {
+  display:none;
+  background-color: rgba(66, 158, 166, 0.8);
+  border: thin solid wheat;
+  color: #C5FCF3;
+  font-size: small;
+}
+
+#wine-food-mornington {
+  background-image: url(../images/Mornington/food_wine.php.jpg);
+}
+#golf-mornington {
+  background-image: url(../images/Mornington/The-National-Golf-Club-2.jpg);
+}
+#hot-springs-mornington {
+  background-image: url(../images/Mornington/hot-springs.jpg);
+}
+#queenscliff-mornington {
+  background-image: url(../images/Mornington/ferry.jpg);
+}
+#walking-tracks-mornington {
+  background-image: url(../images/Mornington/walking-tracks.jpg);
+}
+#arts_culture-mornington {
+  background-image: url(../images/Mornington/sorrento-gallery.jpg);
+}
+#shopping-mornington {
+  background-image: url(../images/Mornington/shopping.jpg);
+}
+#water-sports-mornington {
+  background-image: url(../images/Mornington/paddle.jpg);
+}
+
+/* ------- right MORNINGTON ------- */
+#right-mornington{
+  height: 1276px;
+}
+
+#right-side-mornington {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vh;
+  height: 97%;
+  padding-bottom: 4vh;
+}
+
+#right-side-mornington h4 {
+  margin-top: 3vh;
+  margin-bottom: 0;
+}
+
+#right-side-mornington .section-content{
+  height: 11%;
+}
+
+#right-side-mornington a{
+  display: none;
+}
+
+/*#endregion*/
+
+/* ------- GET_HERE.HTML ------- */
+/*#region*/
+#body-get_here {
+  height: 75vh;
+  position: relative;
+}
+
+/* ------- <main> GET_HERE ------- */
+#main-get_here {
+  background-image: url(../images/Mornington-Peninsula-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------- left GET_HERE------- */
+ #left-get_here {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  justify-content: center;
+}
+
+#left-get_here div {
+  height: 74%;
+  margin: 0;
+  opacity: 0.7;
+  padding-left: 5%;
+}
+#left-get_here:hover div {
+  opacity: 1;
+}
+
+#left-get_here iframe{
+  height: 100%;
+  width: 95%;
+}
+
+#print-map {
+  position:fixed;
+  display: none;
+}
+/* ------- right GET_HERE ------- */
+#right-get_here {
+  height: 100%;
+  padding-top: 1.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#directions {
+  background-color: rgba(103, 38, 32, 0.3);
+  padding-left: 2%;
+  padding-right: 1%;
+  width: 95%;
+  height: 83%;
+  border-radius: 6px;
+  transition: color 2s, background-color 4s;
+}
+#directions h3 {
+  color: #C5FCF3;
+}
+#directions:hover {
+  background-color: rgba(103, 38, 32, 0.9);
+  color: #dadada; 
+}
+
+#directions ul ol{
+  line-height: 1.4; 
+}
+
+#directions li {
+  line-height: 1.4;
+}
+
+/*#endregion*/
+
+
+@media only screen and (max-width: 600px) {
+  /* ------- GLOBALS ------- */
+  /*#region */
+  /*#region */
+  body{
+    position: relative;
+  }
+  a {
+    border-radius: 2px;
+  }
+  /*#endregion*/
+  /* ------- HEADER ------- */
+  /*#region */
+  header {
+    height: 28vh;
+    border:none
+  }
+  #navbar {
+    float: right;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    margin-top: 0;
+    width: 48%;
+    height: 95%;
+    align-items:center;
+    justify-content: space-evenly;
+  }
+  #navbar a {
+    font-size: 3vw; 
+    width: 93%;
+    height: 17%;
+  }
+  #logo {
+    width: 50%;
+    height: 45%;
+    top:2%;
+    background-size:contain;
+    position: relative;
+    background-position:unset;
+  }
+  #logo a {
+    bottom: 10%;
+    height: 30%;
+    font-size: 2.4vmin;
+  }
+  .contact {
+    padding: 0;
+    width: 40%;
+    height: 40%;
+    font-size: 2.8vw;
+    position: absolute;
+    margin-right: 57%;
+    margin-top: 6%;
+  }
+  .contact p {
+    margin-top: 0em;
+    margin-bottom: 0;
+  }
+  /*#endregion*/
+   /* ------- MAIN ------- */
+   /*#region */
+   .flex-container {
+    width: 100%
+  }
+   .left {
+    width: 30%;
+    background-color: rgba(21, 59, 80, 0.8);
+    pointer-events: none;
+  }
+  .left:hover {
+    pointer-events: none;
+  }
+  .hiding-p {
+    position: fixed;
+    display: none;
+  }
+  .section-content { 
+    font-size: 3vw;
+    padding-left: 3%;
+    padding-right: 1%;
+    border-radius: 4px;
+    background-color: rgba(208, 198, 184, 0.8);
+    color: #4d1d18;
+    pointer-events: none;
+  }
+  .section-content:hover {
+    pointer-events: none;
+  }
+  /*#endregion*/
+  /* ------- FOOTER ------- */
+  /*#region */
+  footer {
+    border: none;
+    left: 0;
+    width:100%;
+    height:7vh;
+    background:rgba(204, 153, 141, 1);
+    justify-content:space-evenly;
+  }
+  footer p {
+    letter-spacing: unset;
+    width: 100%;
+  }
+  #tag-us {
+    width: 75%;
+    font-size: 2.4vw;
+    font-weight: bold;
+    color: #153B50;
+  }
+  #social-icons {
+    width: 30%;
+  }
+  /*#endregion*/
+  /*#endregion*/
+  /* =================PAGE SPECIFIC STYLES================ */
+  /* ------- INDEX.HTML ------- */
+  /*#region */
+  #main-home {
+    height: 72vh;
+  }
+  #sidebar-home{
+    padding: 5%;
+  }
+  #sidebar-home p {
+    line-height: 3;
+    font-size: 2.5vw;
+    letter-spacing:1px;
+  }
+  #right-side-home{
+    height: min-content;
+    width: 72%;
+    top: 10%;
+    right: 10%;
+    background-color: rgba(103, 38, 32, 0.8);
+    border-radius: 5px;
+  }
+  #right-side-home:hover {
+    background-color: rgba(103, 38, 32, 0.8);
+    color: #cbcbcb;
+    text-shadow: 2px 2px 5px #429EA6;
+  }
+  #right-side-home a {
+    bottom: 2%;
+    font-size: 2.5vmin ;
+  }
+  /*#endregion*/
+  /* ------- ABOUT.HTML ------- */
+  /*#region */
+  #main-about {
+    background-image: url(../images/about-mobile.jpg);
+  }
+  #left-about {
+    display:none;
+    position: fixed;
+  }
+  .right {
+    width: 100%;
+    justify-content: center;
+  }
+  #right-about {
+    height: unset;
+  }
+  #right-side-about {
+    justify-content:unset;
+    height: 100%;
+  }
+  .h-for-mobile {
+    position: unset;
+    display: unset;
+  }
+  #right-side-about .section-content {
+    font-size: 3vmin;
+    margin-bottom: 7%;
+  }
+  #cont-about-us {
+    height: unset;
+    overflow:unset;
+  }
+  #cont-pet-policy {
+    height: unset;
+  }
+  #cont-pricing {
+    height:unset;
+  }
+  /*#endregion*/
+  /* ------- PROPERTY.HTML ------- */
+  /*#region */
+  #main-property {
+    flex-direction: column;
+  }
+  #left-property {
+    display: none;
+    position: fixed;
+  }
+  #top-property-small {
+    padding: 2%;
+    width: 100%;
+    height: 18%;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: rgba(21, 59, 80, 0.6);
+    box-shadow: 0 0 10px #000;
+    z-index: 4;
+    overflow-x: auto;
+    white-space: nowrap;
+    top:0;
+  }
+  .scroll-img {
+    width: 45%;
+    height: 95%;
+    border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+  }
+  .scroll-img div{
+    width: 100%;
+    height: 100%;
+  }
+  #living-small {
+    background-image: url(../images/RealEstate/living.jpg);  
+  }
+  #bedroom-small {
+    background-image: url(../images/RealEstate/bedroom.jpg);
+  }
+  #kitchen-small {
+    background-image: url(../images/RealEstate/kitchennette.jpg);
+  }
+  #lounge-small {
+    background-image: url(../images/RealEstate/lounge.jpg);
+  }
+  #breakie-small {
+    background-image: url(../images/RealEstate/brekkie_bar.jpg);
+  }
+  #bathroom-small {
+    background-image: url(../images/RealEstate/bathroom.jpg);
+  }
+  #view-small {
+    background-image: url(../images/RealEstate/view.jpg);
+  }
+  #entry-small {
+    background-image: url(../images/RealEstate/entry.jpg);
+  }
+  #right-property {
+    margin-top: 0%;
+  }
+  #right-side-property .section-content {
+    background-color: rgba(208, 198, 184, 0.7);
+    font-size: 3vw;
+    margin-bottom: 5%;
+  }
+/*#endregion*/
+/* ------- MORNINGTON.HTML ------- */
+/*#region */
+  #main-mornington {
+    display: block;
+    height: 100vh;
+    min-height: 1800px;
+  }
+  .left {
+    background-color: rgba(21, 59, 80, 0.6);
+    transition: unset;
+
+  }
+  .left:hover {
+    background-color: rgba(21, 59, 80, 0.6);
+  }
+  #left-mornington {
+    display: block;
+    pointer-events: unset;
+    width: 100%;
+    overflow-x: scroll;
+    height: 10%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 0 0 10px #000;
+  }
+  .gallery-link {
+    height: 100%;
+    width: 12%;
+    opacity: 1;
+  }
+  .gallery-link a {
+    display: none;
+  }
+  #sidebar-mornington {
+    display:flex;
+    flex-direction: row;
+    overflow-x: auto;
+    height: 100%;
+    width: 1200px;
+    padding: 1vh;
+  }
+  .section-content {
+    pointer-events: unset;
+  }
+  #right-mornington{
+    height: min-content;
+  }
+  .section-content:hover {
+    pointer-events: unset;
+  }
+  #right-side-mornington {
+    display: block;
+    justify-content: space-between;
+    padding: 2vh;
+    height: 100%;
+    padding-bottom: 4vh;
+  }
+  #right-side-mornington .section-content {
+    border: thin solid #672620;
+    height:min-content;
+    margin-bottom: 3%;
+    padding: 2px 1px 1px 5px;
+  }
+  #right-side-mornington a{
+    text-decoration:underline;
+    color: #4d1d18;
+    display: unset;
+  }
+  #right-side-mornington .section-content > h4{
+    display: none;
+  }
+/*#endregion*/
+/* ------- GET_HERE.HTML ------- */
+/*#region */
+#body-get_here {
+  /* border: solid 4px green;  */
+  height: max-content;
+}
+#main-get_here {
+  display: flex;
+  flex-direction: column;
+  background-image: none;
+  padding: 3px 2px 2px 2px;
+}
+#left-get_here {
+  background-color: rgb(21, 59, 80);
+  width: 99%;
+  border-radius: 4px;
+  display: inline-block;
+  pointer-events: unset;
+  padding: 6px 7px 4px 7px;
+}
+#left-get_here div {
+  opacity: 1;
+}
+#directions {
+  pointer-events: none;
+  background-color: rgba(103, 38, 32, 0.9);
+  color: #dadada; 
+}
+#body-get_here footer {
+  display:none;
+}
+/*#endregion */
+
+}
+
+/* ------- PRINTS THE DIRECTIONS PAGE PROPERLY ------- */
+@media print {
+  #navbar, footer, a, #logo, #sidebar-get_here {
+    display: none;
+    position: fixed;
+  }
+
+  #print-logo {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 90px;
+  }
+  header {
+    width: 40%;
+    height: 25%;
+  }
+  .contact {
+    width: 80%;
+    height: 15%;
+    right: 0px;
+    float: left;
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    min-width: auto;
+    padding-top: 0.5%; 
+    position:absolute;
+    top: 20%;
+  }
+  #print-phone {
+    display: unset;
+  }
+  #main-get_here {
+    display: block;
+  }
+  #left-get_here {
+    width: 800px;
+    height: 50%;
+  }
+  #print-map {
+    display: inline-block;
+    position:relative;
+    height: 30%;
+    width: 60%;
+  }
+  #right-get_here {
+    position: relative;
+    margin-top: 35%;
+    margin-left: 10%;
+  }
+
+}

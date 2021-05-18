@@ -1,0 +1,77 @@
+#color-palette{
+    /* =================TEMPLATE ALL PAGES================ */
+    /*body*/
+    background-color: #C0B3A0;
+    color: #ffffff;
+    /* ------- HEADER ------- */
+    /* header */
+    background-color: #672620;
+    border-color: #cc998d;
+    /* #navbar a */
+    color: #4d1d18;
+    background-color: #D0C6B8;
+    /* #navbar a:hover */
+    background-color: #555;
+    color: #F4DDDB;
+    /* #navbar a.active */
+    background-color: #429EA6;
+    color: #C5FCF3;
+    /* #logo */
+    background-color: #672620;
+    /* #logo a */
+    border: thin solid white;
+    background-color:#9b6f6c;
+    color: #bbb2b1;
+    /* #logo a:hover */
+    background-color: #555;
+    color: #F4DDDB;
+    /* .contact */
+    color: #d3d4d3;
+    /* ------- MAIN -------- */
+    /* .left */
+    background-color: rgba(21, 59, 80, 0.6);
+    /* .left:hover */
+    background-color: rgba(192, 179, 160, 0.8);
+    color: #0B1E28;
+    /* ------- FOOTER ------- */
+    /* footer */
+    background:rgba(204, 153, 141, 0.8);
+    border-color: #672620;
+    /* #tag-us */
+    color: #153B50;
+    /* =================END TEMPLATE ALL PAGES================ */
+
+    /* ------- HOME -------- */
+    /* #sidebar-home */
+    text-shadow: 2px 2px 5px #429EA6;
+    /* #right-side-home */
+    color:#C5FCF3;
+    text-shadow: 2px 2px 5px #429EA6;
+    background-color: rgba(103, 38, 32, 0);
+    /* #right-side-home:hover */
+    background-color: rgba(103, 38, 32, 0.8);
+    color: #cbcbcb;
+    /* #right-side-home a */
+    background-color:#9b6f6c;
+    color: #cbcbcb;
+    border: thin solid white;
+    /* #right-side-home a:hover */
+    background-color: #555; 
+    color: #F4DDDB; 
+
+    /* ------- ABOUT -------- */
+    /* .section-headers */
+    color:#D0C6B8;
+    /* .section-headers:hover */
+    color: #4d1d18;
+    /* .section-content:hover */
+    background-color: #D0C6B8;
+    color: #4d1d18;
+
+    /* ------- GET_HERE -------- */
+    /* #directions */
+    background-color: rgba(103, 38, 32, 0.3);
+    /* #directions:hover */
+    background-color: rgba(103, 38, 32, 0.9);
+    color: #dadada;
+}

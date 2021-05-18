@@ -1,0 +1,372 @@
+/* ========== Sorrento by the Sea styles ========== */
+
+/*#region*/
+/* ------- GLOBALS ------- */
+* {
+
+}
+html {
+
+}
+body {
+
+}
+a {
+    
+}
+
+/* ------- HEADER ------- */
+header {
+    
+}
+#navbar {
+    
+}
+#navbar a {
+    
+}
+#navbar a:hover {
+    
+}
+#navbar a.active {
+    
+}
+#logo {
+    
+}
+#logo a {
+    
+}
+#logo a:hover {
+    
+}
+.contact {
+
+}
+.contact h4 {
+
+}
+.contact p {
+
+}
+#contact-sticky {
+
+}
+
+/* ------- MAIN -------- */
+.flex-container {
+    
+}
+.left {
+    
+}
+.left:hover {
+    
+}
+.right {
+    
+}
+.section-content {
+    
+}
+.section-content:hover {
+    
+}
+
+/* ------- FOOTER ------- */
+footer {
+
+}
+footer {
+
+}
+#tag-us {
+
+}
+#social-icons {
+
+}
+#social-icons {
+
+}
+#social-icons {
+
+}
+/*#endregion*/
+
+/* =================PAGE SPECIFIC STYLES================ */
+
+/* ------- INDEX.HTML ------- */
+/*#region*/
+#body-home {
+
+}
+/* ------- <header> HOME ------- */
+#contact-home {
+    
+}
+/* ------- <main> HOME ------- */
+#main-home {
+    
+}
+#sidebar-home {
+    
+}
+#right-side-home {
+    
+}
+#right-side-home:hover {
+    
+}
+#right-side-home a {
+    
+}
+#right-side-home a:hover {
+    
+}
+/*#endregion*/
+
+/* ------- ABOUT.HTML ------- */
+/*#region*/
+#body-about {
+    
+}
+/* ------- <header> ABOUT ------- */
+#header-about {
+    
+}
+/* ------- <main> ABOUT ------- */
+#main-about {
+    
+}
+/* ------- left ABOUT ------- */
+#left-about {
+    
+}
+#sidebar-about {
+    
+}
+.section-headers-about {
+    
+}
+.section-headers-about:hover {
+    
+}
+.section-headers-about h2 {
+    
+}
+#sh-about-us {
+    
+}
+#sh-pet-policy {
+    
+}
+#sh-pet-policy img {
+    
+}
+#sh-pet-policy:hover img{
+    
+}
+#sh-pricing {
+    
+}
+/* ------- right ABOUT ------- */
+#right-about {
+    
+}
+#right-side-about {
+    
+}
+#cont-about-us {
+    
+}
+#cont-pet-policy {
+    
+}
+#cont-pricing {
+    
+}
+/*#endregion*/
+
+/* ------- PROPERTY.HTML ------- */
+/*#region*/
+#body-property {
+    
+}
+/* ------- <header> PROPERTY ------- */
+#header-property {
+    
+}
+/* ------- <main> PROPERTY ------- */
+#main-property {
+    
+}
+/* ------- left ------- */
+#left-property {
+    
+}
+#sidebar-property {
+    
+}
+.gallery-img {
+    
+}
+.gallery-img:hover {
+    
+}
+.gallery-img div {
+    
+}
+#living {
+    
+}
+#bedroom {
+    
+}
+#kitchen {
+    
+}
+#lounge {
+    
+}
+#breakie {
+    
+}
+#bathroom {
+    
+}
+#view {
+    
+}
+#entry {
+    
+}
+/* ------- right PROPERTY------- */
+#right-property {
+    
+}
+#right-side-property {
+    
+}
+#right-side-property h4{
+    
+}
+#content-property--background {
+    
+}
+#content-property--background:hover {
+    
+}
+/*#endregion*/
+
+/* ------- MORNINGTON.HTML ------- */
+/*#region*/
+#body-mornington {
+    
+}
+/* ------- <header> MORNINGTON ------- */
+#header-mornington {
+    
+}
+/* ------- <main> MORNINGTON ------- */
+#main-mornington {
+    
+}
+/* ------- left MORNINGTON ------- */
+#left-mornington {
+    
+}
+#sidebar-mornington {
+    
+}
+.gallery-link {
+    
+}
+.gallery-link:hover {
+    
+}
+.gallery-link div {
+    
+}
+#wine-food-mornington {
+    
+}
+#golf-mornington {
+    
+}
+#hot-springs-mornington {
+    
+}
+#queenscliff-mornington {
+    
+}
+#walking-tracks-mornington {
+    
+}
+#arts_culture-mornington {
+    
+}
+#shopping-mornington {
+    
+}
+#water-sports-mornington {
+    
+}
+/* ------- right MORNINGTON ------- */
+#right-mornington {
+    
+}
+#right-side-mornington {
+    
+}
+#content-mornington {
+    
+}
+#content-mornington {
+    
+}
+/*#endregion*/
+
+/* ------- GET_HERE.HTML ------- */
+/*#region*/
+#body-get_here {
+    
+}
+/* ------- <header> GET_HERE ------- */
+#header-get_here {
+    
+}
+#contact-get_here {
+    
+}
+/* ------- <main> GET_HERE ------- */
+#main-get_here {
+    
+}
+/* ------- left GET_HERE------- */
+#left-get_here {
+    
+}
+#left-get_here div {
+
+}
+#left-get_here:hover div {
+    
+}
+/* ------- right GET_HERE ------- */
+#right-get_here {
+    
+}
+#directions {
+    
+}
+#directions:hover {
+    
+}
+#directions ul ol{
+    
+}
+#directions li {
+    
+}
+/*#endregion*/

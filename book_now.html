@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <title>Sorrento By The Sea - Bookings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <style> .form-group {margin-left: 2%; margin-right: 2%; } button{margin-left: 2%;} </style>
+</head>
+<body id="body-bookings">
+    <header>
+        <nav id="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html" class="active">ABOUT US</a>
+            <a href="property.html">THE PROPERTY</a>
+            <a href="mornington.html">MORNINGTON</a>
+            <a href="get_here.html">CONTACT US</a>
+        </nav>
+
+        <div id="logo">
+            <a href="about.html#pet-tag">Pet Friendly</a>
+        </div>
+        <div class="contact">
+            <h4>Information and Bookings</h4>
+            <p><strong><a href="tel:0435-123-456"> Ph. 0435 123 456</a></strong><br>
+                42 Holyrood Avenue<br>
+                Sorrento VIC 3943</p>
+        </div>
+    </header>
+
+    <main class="flex-container" id="main-bookings">
+
+        <div class="left" id="left-bookings">
+            <div id="sidebar-bookings">
+                <div id="myform">
+                    <form id='form-to-validate' action=thankyou.html novalidate onsubmit="return FormHasBeenValidated();">
+                         <div>
+                               <h1>Contact form</h1>
+                               <small class="text-muted">* All fields are required</small>
+                         </div>
+       
+                         <div class="form-group">
+                               <label for="first">First name</label>
+                               <input type="text" class="form-control" id="first" maxlength="100" required>
+                               <div class="valid-feedback">
+                                     Looks good!
+                               </div>
+                               <div class="invalid-feedback">
+                                     Please provide your first name.
+                               </div>
+                         </div>
+ 
+                         <div class="form-group">
+                               <label for="last">Last name</label>
+                               <input type="text" class="form-control" id="last" maxlength="100" required>
+                               <div class="valid-feedback">
+                                     Looks good!
+                               </div>
+                               <div class="invalid-feedback">
+                                     Please provide your last name.
+                               </div>
+                         </div> 
+                         <label for="contact-preference">Best contact method:</label>
+                         <div class="form-group" id="contact-preference">
+                               <input type="radio" id="phone-pref" name="preference" value="phone">
+                               <label for="phone-pref">Phone</label>
+                               <input type="radio" id="email-pref" name="preference" value="email">
+                               <label for="email-pref">Email</label>
+                         </div>
+                         <div class="form-group">
+                               <label for="email">Email</label>
+                               <input type="text" class="form-control" id="email"  placeholder="Choose a contact method">
+                               <div class="valid-feedback">
+                                     Looks good!
+                               </div>
+                               <div class="invalid-feedback">
+                                     Please enter a valid email address.
+                               </div>
+                         </div>
+                         </div>
+                         <div class="form-group">
+                               <label for="phone">Phone</label>
+                               <input type="tel" class="form-control" id="phone" placeholder="Choose a contact method">
+                               <div class="valid-feedback">
+                                     Looks good!
+                               </div>
+                               <div class="invalid-feedback">
+                                     Please provide a valid Phone number.
+                               </div>
+                         </div>
+                         <div class="form-group">
+                               <label for="info" class="form-floating"></label>
+                               <label for="info">Enquiry:</label>
+                               <textarea id="info" minlength="10" maxlength=500 placeholder="Tell us about your plans. . ." 
+                               class="form-control" required></textarea> 
+                               <span class="badge rounded-pill bg-light text-muted" id="counter">0 / 500</span>
+                               <div class="valid-feedback">
+                                     Looks good!
+                               </div>
+                               <div class="invalid-feedback">
+                                     Please write some details about your enquiry.
+                               </div>
+                         </div>
+                         <div class="form-group">
+                               <label class="form-check-label" for="policy">Agree to our <a href = "privacypolicy.html" target="_blank">privacy policy</a></label>
+                               <input type="checkbox"  class="form-check-input" id="policy" required>
+                               <div class="valid-feedback">
+                                     Looks good!
+                               </div>
+                               <div class="invalid-feedback">
+                                     Please read and agree to our Privacy Policy.
+                               </div>
+                         </div>
+                         
+                               <button class="btn btn-primary" id="submit-btn" type="submit">Submit form</button>
+                   </form>
+             </div>
+            </div>
+        </div>
+
+        <div class="right" id="right-bookings">
+            <div id="right-side-bookings">
+                
+                
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="tag-us">
+            <p>Follow us, friend us, tag us or subscribe to our channel...</p>
+        </div>
+        <div id="social-icons">
+            <a href="https://twitter.com/MornPenShire" target="_blank"><img src="images/SocialIcons/twitter_small.png"
+                    alt="twitter icon"></a>
+            <a href="https://www.facebook.com/morningtonpeninsula" target="_blank"><img
+                    src="images/SocialIcons/facebook_small.png" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/officialmorningtonpeninsula/" target="_blank"><img
+                    src="images/SocialIcons/instagram_small.png" alt="instagram icon"></a>
+            <a href="https://www.youtube.com/watch?v=qgq_m9Dc2yc" target="_blank"><img
+                    src="images/SocialIcons/youtube-variation_small.png" alt="youtube icon"></a>
+
+        </div>
+
+    </footer>
+</body>
+<script src="js/scriptForm2.js"></script>
+</html>
