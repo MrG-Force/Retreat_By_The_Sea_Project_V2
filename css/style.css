@@ -645,6 +645,13 @@ footer p {
 
 /*#region*/
 /* ------- GALLERY.HTML ------- */
+#gallery header {
+  position:fixed;
+}
+#left-gallery {
+  position:relative;
+  top: 25%;
+}
 #right-gallery {
   /* Needed to position left and right arrows*/
   position: fixed;
@@ -662,7 +669,12 @@ footer p {
   cursor:pointer;
 }
 .slideshow {
-  display: none;
+  /* display: none; */
+  position:fixed;
+  right: 0%;
+}
+.slide {
+  width:100%;
 }
 .arrow{
   cursor: pointer;
