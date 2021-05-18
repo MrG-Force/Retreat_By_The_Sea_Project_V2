@@ -64,7 +64,7 @@ header {
   text-decoration: none;
   font-size: 1.2vw;
   line-height: 4vmin;
-  width:19.5%;
+  width:16.2%;
   margin-bottom: 0;
   margin-left: 4px;
 }
@@ -642,6 +642,63 @@ footer p {
 #right-side-mornington a{
   display: none;
 }
+
+/*#region*/
+/* ------- GALLERY.HTML ------- */
+#right-gallery {
+  /* Needed to position left and right arrows*/
+  position: fixed;
+}
+.thumbnail {
+  width: 100%;
+  opacity: 0.6;
+}
+.active,
+.thumbnail:hover {
+  opacity:1;
+}
+/* Add a pointer when hovering on thumbnail */
+.pointer {
+  cursor:pointer;
+}
+.slideshow {
+  display: none;
+}
+.arrow{
+  cursor: pointer;
+  width: auto;
+  padding: 15px;
+  color:#429EA6;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+  position: fixed;
+  top: 55%; 
+  left:30%;
+}
+.next {
+  position: fixed;
+  right: 0%;
+  top: 55%;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(77, 29, 24, 0.7);
+  color:#C5FCF3;
+}
+.slide-name {
+  color:#0B1E28;
+  font-size: 18px;
+  padding: 10px 15px;
+  position:absolute;
+  top:0;
+}
+
+/*#endregion*/
 
 /*#endregion*/
 
