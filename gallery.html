@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html-gallery">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
     <link rel="manifest" href="favicon_io/site.webmanifest">
     <title>Sorrento By The Sea - Gallery</title>
     <link rel="stylesheet" href="css/style.css">
-  
+
 </head>
 
 <body id="gallery">
@@ -40,86 +40,118 @@
         <div class="left" id="left-gallery">
             <div class="column">
                 <div class="row">
-                    <img src="/images/RealEstate/living.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/living.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(1)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/bedroom.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/bedroom.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(2)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/kitchennette.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/kitchennette.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(3)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/lounge.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/lounge.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(4)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/brekkie_bar.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/brekkie_bar.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(5)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/bathroom.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/bathroom.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(6)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/view.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/view.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(7)">
                 </div>
 
                 <div class="row">
-                    <img src="/images/RealEstate/entry.jpg" class="thumbnail pointer" alt="living room">
+                    <img src="/images/RealEstate/entry.jpg" class="thumbnail pointer" alt="living room"
+                        onclick="currentSlide(8)">
                 </div>
             </div>
         </div>
 
         <div class="right" id="right-gallery">
             <div class="slideshow">
-                <div class="slide-name">Living room</div>
-                <img src="/images/RealEstate/living.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/living.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>Our open plan living room</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">Bedroom</div>
-                <img src="/images/RealEstate/bedroom.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/bedroom.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>Our cozy bedroom with amazing views</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">Kitchen</div>
-                <img src="/images/RealEstate/kitchennette.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/kitchennette.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>Kitchen with modern appliances</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">TV lounge</div>
-                <img src="/images/RealEstate/lounge.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/lounge.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>Lay back and relax in the TV lounge</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">Breakfast bar</div>
-                <img src="/images/RealEstate/brekkie_bar.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/brekkie_bar.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>It's brekky time!</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">Bathroom</div>
-                <img src="/images/RealEstate/bathroom.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/bathroom.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>Our luxury bathroom</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">View</div>
-                <img src="/images/RealEstate/view.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/view.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>All our rooms come with a view</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="slideshow">
-                <div class="slide-name">Entrance</div>
-                <img src="/images/RealEstate/entry.jpg" alt="" class="slide">
+                <div class="slide"><img src="/images/RealEstate/entry.jpg" alt="">
+                    <div class="slide-name">
+                        <h2>We are waiting for you...</h2>
+                    </div>
+                </div>
             </div>
-            
-            <a class="prev arrow" onclick="">❮</a>
-            <a class="next arrow" onclick="">❯</a>
+
+            <a class="prev arrow" onclick="plusSlides(-1)">❮</a>
+            <a class="next arrow" onclick="plusSlides(1)">❯</a>
         </div>
 
     </main>
-    <!-- <script src="/js/gallery.js"></script> -->
+    <script src="/js/gallery.js"></script>
 
 </body>
 

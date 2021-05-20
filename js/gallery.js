@@ -17,7 +17,7 @@ function showSlides(n) {
     for (i = 0; i < thumbs.length; i++) {
         thumbs[i].className = thumbs[i].className.replace(" active", "");
     }
-    slides[slideIndex - 1].style.display = "none";
+    slides[slideIndex - 1].style.display = "flex";
     thumbs[slideIndex - 1].className += " active";
 }
 function plusSlides(n) {
