@@ -34,6 +34,10 @@ PHONE.disabled = true;
 //#endregion
 window.addEventListener('load', function () {addListeners(); });
 
+/**
+ * Adds event listeners to all the elements of the form to validate
+ * the entered input and validate the form
+ */
 function addListeners() {
     // adds a listener to validate corresponding element on input
     formElements.forEach(element => {
@@ -58,12 +62,13 @@ function addListeners() {
     });
     // adds a listener to validate form on every input
     FORM.addEventListener('input', function () { ValidateForm(); });
+    FORM.addEventListener('blur', function () { ValidateForm(); });
     // adds a listener to count and display a character count under textarea
     INFO.addEventListener('keyup', countCharacters, false);
     CHECK.addEventListener('change', function () { ValidateForm(); });
-    INFO.addEventListener('blur', function () { ValidateForm(); });
-
+    INFO.addEventListener('keyup', function () { ValidateForm(); });
 }
+
 /**
  * Enables email or phone input fields accordingly with
  * user's selection.
@@ -86,6 +91,7 @@ function ContactPref() {
     }
     ValidateForm();
 }
+
 /**
  * Checks that the passed element is valid and adds
  * corresponding validity pseudoclasses to the element
@@ -193,7 +199,8 @@ function ResetValid(element) {
 }
 
 /**
- * Checks that the form doesn't have any invalid fields. Sets the isFormValid variable to true.
+ * Checks that the form doesn't have any invalid fields. Sets the isFormValid 
+ * variable to true and enables Submit button.
  * @returns {boolean}
  */
  function ValidateForm() {
