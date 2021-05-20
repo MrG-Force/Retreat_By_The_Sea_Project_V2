@@ -828,6 +828,41 @@ footer p {
 
 /*#endregion*/
 
+/* ------- BOOK_NOW.HTML ------- */
+/*#region*/
+#body-bookings {
+  height:auto;
+}
+
+/* ------- <main> BOOK_NOW ------- */
+/* ------- left BOOK_NOW (FORM) ------- */
+#left-bookings {
+  /* border: solid 2px red; */
+  height: auto; 
+}
+#form-header {
+  margin-left: 2%;
+  padding-top: 2%;
+  font-size: 6vmin;
+}
+.form-group {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 3vmin;
+  padding-top: 1vh;
+}
+.form-group p {
+  margin-bottom: 0;
+}
+.btn {
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+
+/* ------- right BOOK_NOW (CALENDAR-CALCULATOR) ------- */
+
+/*#endregion*/
 
 @media only screen and (max-width: 600px) {
   /* ------- GLOBALS ------- */
