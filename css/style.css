@@ -861,6 +861,7 @@ footer p {
     font-size: 3vw; 
     width: 93%;
     height: 17%;
+    border: solid 1px; border-radius: 4px;
   }
   #logo {
     width: 50%;
