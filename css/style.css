@@ -833,6 +833,14 @@ footer p {
 #body-bookings {
   height:auto;
 }
+#footer-bookings {
+  position: unset;
+  width: 100%;
+}
+#footer-bookings p {
+  margin-top: 2%;
+}
+
 
 /* ------- <main> BOOK_NOW ------- */
 /* ------- left BOOK_NOW (FORM) ------- */
@@ -964,8 +972,9 @@ margin-top: 10px;
 #display-area {
   margin-top: 30px;
   margin-left: 20px;
-  border: thin solid red;
+  /* border: thin solid red; */
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   width: 90%;
