@@ -836,6 +836,13 @@ footer p {
 
 /* ------- <main> BOOK_NOW ------- */
 /* ------- left BOOK_NOW (FORM) ------- */
+#main-bookings {
+  background-image: url(../images/last_img_sunset_sorrento.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #left-bookings {
   /* border: solid 2px red; */
   height: auto; 
@@ -861,6 +868,144 @@ footer p {
 }
 
 /* ------- right BOOK_NOW (CALENDAR-CALCULATOR) ------- */
+#container {
+  display: flex;
+  /* border: solid rgba(255, 0, 0, 0.7); */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#book-now-h1 {
+color: #153B50;
+font-size: 200%;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.month-header {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.month {
+  background-color: #dbc0b9; 
+  color: #153B50;
+  border-radius: 3px;
+  border: #226285;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px 3px rgba(103, 38, 32, 0.7);
+}
+
+.month th {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100%;
+}
+
+.month td {
+  font-family: monospace;
+  font-size: 120%;
+}
+
+.day-date {
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.hover-in {
+  box-shadow: 0px 0px 10px 3px rgb(70, 130, 180);
+}
+
+.hover-out {
+  box-shadow: 0px 0px 10px 3px rgb(250, 128, 114);
+}
+
+.today {
+  border: solid 3px rgba(0, 128, 0, 0.7);
+}
+
+.last-day {
+  border: solid 3px rgba(255, 0, 0, 0.7);
+  /* box-shadow:2px 2px 2px 2px rgba(255, 0, 0, 0.8); */
+}
+
+.no-bookable {
+  background-color: grey;
+  color: whitesmoke;
+  pointer-events: none;
+}
+
+.check-in-day {
+  background-color: darkturquoise;
+}
+.check-out-day {
+  background-color:rgb(250, 128, 114);
+}
+.output-cont {
+  /* border: thin solid purple; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 27%;
+}
+.output-box {
+  width: 150px;
+  height: 30px;
+  margin: 8px 3px 0px 1px;
+  padding-left: 3px;
+  color: grey;
+  background-color: gainsboro;
+}
+
+#display-area {
+  margin-top: 30px;
+  margin-left: 20px;
+  border: thin solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 200px;
+}
+
+.label-cal {
+  float: left;
+  color: #153B50;
+  margin: 10px 3px 0px 10px
+}
+
+.before-checkin {
+  pointer-events: none;
+}
+.after-checkin {
+  background-color: rgba(30, 144, 255, 0.5);
+}
+#check-in {
+  border: double darkturquoise;
+}
+#check-in.selected {
+  background-color: rgba(0, 206, 209, 0.4);
+  color:black;
+}
+#check-out {
+  border: double salmon;
+}
+#check-out.selected {
+  background-color:rgba(250, 128, 114, 0.5);
+  color:black;
+}
+#total {
+  border: double rgba(30, 144, 255, 0.8);
+}
+#total.selected {
+  background-color:rgba(30, 144, 255, 0.4);
+  color: black;
+}
+
 
 /*#endregion*/
 

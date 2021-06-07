@@ -117,8 +117,8 @@
                                           </div>
                                     </div>
                                     <div class="form-group">
-                                          <label class="form-check-label" for="policy" style="display: inline;">Agree to our <a
-                                                      href="privacypolicy.html" target="_blank">privacy
+                                          <label class="form-check-label" for="policy" style="display: inline;">Agree to
+                                                our <a href="privacypolicy.html" target="_blank">privacy
                                                       policy</a></label>
                                           <input type="checkbox" class="form-check-input" id="policy" required>
                                           <div class="valid-feedback">
@@ -135,10 +135,25 @@
             </div>
 
             <div class="right" id="right-bookings">
-                  <div id="right-side-bookings">
+                  
+                        <h1 id="book-now-h1">Please select your dates:</h1>
+                        <div id="container">
+                        </div>
+                        <div id="display-area">
+                              <div class="output-cont">
+                                    <label for="check-in" class="label-cal">Check in:</label>
+                                    <div id="check-in" class="output-box">Mmm dd, yyyy</div>
+                              </div>
+                              <div class="output-cont"><label for="check-out" class="label-cal">Check out:</label>
+                                    <div id="check-out" class="output-box">Mmm dd, yyyy</div>
+                              </div>
+                              <div class="output-cont"><label for="total" id="label-total" class="label-cal">Total for <b id="nights"></b>
+                                          nights:</label>
+                                    <div id="total" class="output-box">$0.00</div>
+                              </div>
+                        </div>
 
-
-                  </div>
+                 
 
             </div>
       </main>
@@ -161,6 +176,7 @@
 
       </footer>
 </body>
+<script src="js/scriptCalendar.js"></script>
 <script src="js/scriptForm.js"></script>
 
 </html>
