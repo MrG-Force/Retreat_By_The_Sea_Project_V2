@@ -835,6 +835,7 @@ footer p {
 }
 #footer-bookings {
   position: unset;
+  height: 60px;
   width: 100%;
 }
 #footer-bookings p {
