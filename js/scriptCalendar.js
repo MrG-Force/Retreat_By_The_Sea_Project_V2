@@ -1,5 +1,5 @@
 /**
- * @file - Creates a set of consecutive monthly calendars that allow the user to select 
+ * @file - Creates a set of consecutive monthly calendars that allows the user to select 
  * booking dates and calculates the price for the accommodation depending of the season-pricing
  * policy. Each month is contained in a table element. The amount of calendars depends
  * on the current date. The program is designed to fit 3 months, so depending on the current date it
